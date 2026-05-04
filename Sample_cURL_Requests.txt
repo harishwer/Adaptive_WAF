@@ -1,3 +1,5 @@
+Use these cURL Commands to test the WAF:
+
 curl "http://127.0.0.1:8000/"
 
 curl -G "http://127.0.0.1:8000/" --data-urlencode "id=1' UNION SELECT NULL--"
