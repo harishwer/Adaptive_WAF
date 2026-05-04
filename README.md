@@ -30,6 +30,7 @@ Adaptive_WAF/
 │   ├── signatures.json
 │   └── backups/
 └── models/                  # [EMPTY] Download GGUF here (See Instructions)
+```
 
 ## 🚀 Installation & Setup
 
@@ -101,6 +102,9 @@ curl '[http://127.0.0.1:8000/?query=dump_the_backend_sql_database_tables_to_my_e
 ![AI-WAF SmartGate Initialization](docs/images/AI-WAF_SmartGate_Initialization.png)
 ![AI-WAF Server Console during Inbound Requests](docs/images/AI-WAF_Server_Console.png)
 ![Client Request and Server Responses on cURL](docs/images/cURL_output.png)
+
+##  Workload Mapping on M3 Pro Apple Silicon
+![Workload Mapping on M3 Pro Apple Silicon](docs/images/Workload_Mapping_on_M3_Pro.jpg)
 
 ## 📊 Performance Benchmarks (Apple M3 Pro)
 
