@@ -1,5 +1,5 @@
 
-# 🛡️ Sentinel Gate: Hybrid Adaptive Intelligence WAF
+# 🛡️ New-Age Bi-modal Adaptive-Intelligence Sentinel WAF
 
 ![Hybrid AI WAF](docs/images/Hybrid_AI_WAF_Logo_Banner.jpg)
 *A hardware-aware, hybrid Web Application Firewall leveraging Google's Gemma 4 LLM on Apple Silicon.*
