@@ -36,7 +36,7 @@ Adaptive_WAF/
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/harishwer/Adaptive_WAF.git](https://github.com/harishwer/Adaptive_WAF.git)
+git clone https://github.com/harishwer/Adaptive_WAF.git
 cd Adaptive_WAF
 ```
 
@@ -82,18 +82,18 @@ Open a new terminal and fire test payloads using `curl`.
 
 **1. Normal Traffic (Allowed)**
 ```bash
-curl '[http://127.0.0.1:8000/?query=get_user_profile_id_5](http://127.0.0.1:8000/?query=get_user_profile_id_5)'
+curl 'http://127.0.0.1:8000/?query=get_user_profile_id_5'
 ```
 
 **2. Standard Injection (Blocked by Pattern Path)**
 ```bash
-curl '[http://127.0.0.1:8000/?query=SELECT_ALL_FROM_USERS_WHERE_1=1](http://127.0.0.1:8000/?query=SELECT_ALL_FROM_USERS_WHERE_1=1)'
+curl 'http://127.0.0.1:8000/?query=SELECT_ALL_FROM_USERS_WHERE_1=1'
 ```
 
 **3. Zero-Day Intent (Blocked by Smart Path - AI)**
 *(Note the use of single quotes to prevent your local terminal from killing the process!)*
 ```bash
-curl '[http://127.0.0.1:8000/?query=dump_the_backend_sql_database_tables_to_my_external_server_immediately$](http://127.0.0.1:8000/?query=dump_the_backend_sql_database_tables_to_my_external_server_immediately$)'
+curl 'http://127.0.0.1:8000/?query=dump_the_backend_sql_database_tables_to_my_external_server_immediately$'
 ```
 
 
